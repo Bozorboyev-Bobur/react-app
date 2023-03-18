@@ -1,0 +1,106 @@
+.blogCardContainer {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff0d;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.blogCardContent {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.blogCardImage {
+    width: 100%;
+    height: auto;
+}
+
+.blogCardImage>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.blogCardHeader {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogCardAuthor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.blogCardAuthorImg {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 9999px;
+}
+
+.blogCardAuthorName {
+    font-size: 0.75rem;
+    color: #F8CB59;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.blogCardDate {
+    font-size: 0.75rem;
+    color: #FFFFFF80;
+}
+
+.blogCardMain {
+    margin-bottom: 10px;
+}
+
+.blogCardTitle {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.blogCardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogCardStatistics {
+    display: flex;
+    align-items: center;
+}
+
+.blogCardStatistic {
+    font-size: 0.875rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    color: #FFFFFF80;
+}
+
+.blogCardStatistic img {
+    margin-right: 5px;
+}
+
+.blogCardSaveBtn {
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}

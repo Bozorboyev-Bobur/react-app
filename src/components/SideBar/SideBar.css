@@ -1,0 +1,22 @@
+.sideBarContainer {
+    max-width: 250px;
+    height: auto;
+    padding-top: 30px;
+    position: fixed;
+    right: 120px;
+}
+
+.sideBarContent {
+    max-width: 250px;
+    height: 450px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.sideBarBg {
+    max-width: 250px;
+    height: auto;
+    padding-top: 30px;
+}

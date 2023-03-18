@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: #1D1F21;
+}
+
+a,
+ul,
+li,
+span,
+p,
+button {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style: none;
+    color: #fff;
+    font-weight: normal;
+    background: none;
+}
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    padding: 0 150px;
+    display: flex;
+    align-items: flex-start;
+}
